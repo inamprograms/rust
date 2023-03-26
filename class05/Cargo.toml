@@ -1,0 +1,16 @@
+[package]
+name = "class05"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[lib]
+name = "class05"
+# path = "D:\\PIAIC IOT\\Quater 2\\rust\\class05.rs"
+path = "../class05.rs"  #.. means come out of .toml and pic file /class05.rs
+
+#let say you have this program and you have a server , server is deployed somewhere. so do we know which server it is/where it is delployed ?We do not know server is running which instance like ubuntu or debien.
+# Note above path is good at your system but you do not know server is running which flavour linux or unix and we care bout it then second path is used which works as above mentioned   
